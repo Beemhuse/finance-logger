@@ -86,3 +86,33 @@ button{
     width: 300px;
 
 }
+
+@media screen and (max-width: 550px) {
+ main{
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+h3{
+    /* width: 100px; */
+    text-align: center;
+    font-size: 30px;
+}
+    .new-form{
+    width: 100%;
+    display: block;
+    /* flex-direction: column; */
+
+}
+.field{
+    margin: 15px 0px;
+}
+ select, input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+  
+}
