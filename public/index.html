@@ -9,39 +9,44 @@
 
 </head>
 <body>
-<div class="logger">
+<main>
+
+    <div class="logger">
+        <ul class="item-list">
+            
+        </ul>
+        </div>
+        
+        
+        <header class="header">
     <h3>My finance logger</h3>
-    <ul class="item-list">
 
-    </ul>
-</div>
-
-<footer>
-    <form  class="new-form">
-<div class="field">
-    <label for="">Type:</label>
-    <select name="" id="type">
-        <option value="invoice">Invoice</option>
-        <option value="payment">Payment</option>
-
-    </select>
-</div>
-<div class="field">
-    <label >to/From</label>
-    <input type="text" id="toFrom">
-</div>
-<div class="field">
-    <label >Details</label>
-    <input type="text" id="details">
-</div>
-<div class="field">
-    <label >Amount ($):</label>
-    <input type="number" id="amount">
-</div>
-<button type="submit">Add</button>
-
-    </form>
-</footer>
+            <form  class="new-form">
+        <div class="field">
+            <label for="">Type:</label>
+            <select name="" id="type">
+                <option value="invoice">Invoice</option>
+                <option value="payment">Payment</option>
+        
+            </select>
+        </div>
+        <div class="field">
+            <label >    To/From</label>
+            <input type="text" id="toFrom">
+        </div>
+        <div class="field">
+            <label >Details</label>
+            <input type="text" id="details">
+        </div>
+        <div class="field">
+            <label >Amount ($):</label>
+            <input type="number" id="amount">
+        </div>
+        <button type="submit">Add</button>
+        
+            </form>
+        </header>
+</main>    
 
 
     <script type="module" src="index.js"></script>
